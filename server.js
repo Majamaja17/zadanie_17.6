@@ -7,7 +7,7 @@ app.get('/', function(req, res){
     res.render('index');
 });
 
-app.get('/first-template, function(req, res){
+app.get('/first-template', function(req, res){
     res.render('first-template');
 });
 
